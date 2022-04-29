@@ -1,4 +1,13 @@
-#score { text-align: center; }
+@font-face {
+	font-family: "DOOM2016";
+	src: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/blob/main/font.woff");
+}
+
+#score 
+{ 
+	text-align: center; 
+	font-family: "DOOM2016", sans-serif;
+}
 
 #game {
   width: 600px;

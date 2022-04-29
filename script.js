@@ -21,12 +21,6 @@ setInterval(() => {
     .getPropertyValue('left'));
   score.innerText++;
 
-  if (rocketLeft < 0) {
-    rocket.style.display = 'none';
-  } else {
-    rocket.style.display = ''
-  }
-
   if (rocketLeft < 100 && cacodemonTop == 25) {
     alert("You got a score of: " + score.innerText +
       "\n\nPlay again?");
