@@ -7,7 +7,7 @@ function jump()
   cacodemon.classList.add("jumpAnimation");
   setTimeout(() =>
     cacodemon.classList.remove("jumpAnimation"), 625);
-}
+} 
 
 document.addEventListener('keypress', (event) => 
 {
@@ -22,9 +22,8 @@ setInterval(() =>
   const rocketLeft = parseInt(window.getComputedStyle(rocket).getPropertyValue('left'));
   score.innerText++;
 
-  if (rocketLeft < 100 && -25 < cacodemonTop < 25) {
-    alert("You got a score of: " + score.innerText +
-      "\n\nPlay again?");
+  if (rocketLeft < 100 && cacodemonTop > 0) {
+    alert("You got a score of: " + score.innerText + "\n\nPlay again?");
     location.reload();
   }
 }, 50);
