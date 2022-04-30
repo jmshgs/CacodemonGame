@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "DOOM2016";
-	src: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/font.woff");
+	src: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/blob/main/font.woff");
 }
 
 #score 
@@ -14,7 +14,7 @@
   height: 300px;
   border: 2px solid black;
   margin: auto;
-  background-image: url("https://i.ibb.co/fv1gkMM/Doom-Hell-Aftermath-world-illustrator-wallpaper-1366x768.jpg");
+  background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/blob/main/Images/classic/doom%20background.jpg");
   background-size: cover;
 }
 
@@ -25,7 +25,7 @@
   right: 87.5px;
   top: 25px;
   position: relative;
-  background-image: url("https://i.ibb.co/2Z3Y8Pz/doom-cacodemon.png");
+  background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/blob/main/Images/classic/doom%20cacodemon.png");
   background-size: contain;
 }
 
@@ -36,7 +36,7 @@
   position: relative;
   left: 550px;
   bottom: 225px;
-  background-image: url("https://i.ibb.co/3fn8NHC/doom-rocket.png");
+  background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/blob/main/Images/classic/doom%20rocket.png");
   background-size: cover;
   animation: rocket 1.33s infinite linear;
 }
