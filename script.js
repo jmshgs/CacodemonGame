@@ -22,7 +22,7 @@ setInterval(() =>
   const rocketLeft = parseInt(window.getComputedStyle(rocket).getPropertyValue('left'));
   score.innerText++;
 
-  if (rocketLeft < 100 && cacodemonTop == 25) {
+  if (rocketLeft < 100 &&  -25 < cacodemonTop < 25) {
     alert("You got a score of: " + score.innerText +
       "\n\nPlay again?");
     location.reload();
