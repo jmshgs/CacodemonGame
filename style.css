@@ -1,4 +1,5 @@
-@font-face {
+@font-face 
+{
 	font-family: "DOOM2016";
 	src: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/font.woff");
 }
@@ -9,7 +10,8 @@
 	font-family: "DOOM2016", sans-serif;
 }
 
-#game {
+#game 
+{
   width: 600px;
   height: 300px;
   border: 2px solid black;
@@ -18,7 +20,8 @@
   background-size: cover;
 }
 
-#cacodemon {
+#cacodemon 
+{
   height: 400px;
   width: 336px;
   transform: scale(-.3, .3);
@@ -29,7 +32,8 @@
   background-size: contain;
 }
 
-#rocket {
+#rocket 
+{
   width: 75px;
   height: 140px;
   transform: scale(.4, .4) rotate(270deg);
@@ -41,16 +45,19 @@
   animation: rocket 1.33s infinite linear;
 }
 
-@keyframes rocket {
+@keyframes rocket 
+{
   0%{left: 550px;}
   100%{left: -50px;}
 }
 
-.jumpAnimation {
+.jumpAnimation 
+{
   animation: jump 0.625s ease;
 }
 
-@keyframes jump {
+@keyframes jump
+{
   0%{top: 25px;}
   50%{top: -125px;}
   75%{top: -125px;}
