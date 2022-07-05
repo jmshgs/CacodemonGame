@@ -1,11 +1,15 @@
 @font-face 
 {
 	font-family: "DOOM2016";
-	src: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/font.woff");
+	src: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/EternalUI.woff");
 }
 
+body {
+  background-color: black;
+}
 #score 
 { 
+  color: crimson;
 	text-align: center; 
 	font-family: "DOOM2016", sans-serif;
 }
@@ -42,7 +46,7 @@
   bottom: 225px;
   background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/Images/classic/doom%20rocket.png");
   background-size: cover;
-  animation: rocket 1.33s infinite linear;
+  animation: rocket 1.25s infinite linear;
 }
 
 @keyframes rocket 
