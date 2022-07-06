@@ -1,0 +1,71 @@
+@font-face 
+{
+	font-family: "EternalUI";
+	src: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/EternalUI.woff");
+}
+
+body 
+{
+  background-color: black;
+}
+
+#score 
+{ 
+  color: crimson;
+	text-align: center; 
+	font-family: "EternalUI", sans-serif;
+}
+
+#game 
+{
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+  margin: auto;
+  background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/Images/classic/doom%20background.jpg");
+  background-size: cover;
+}
+
+#cacodemon 
+{
+  height: 400px;
+  width: 336px;
+  transform: scale(-.3, .3);
+  right: 87.5px;
+  top: 25px;
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/Images/classic/doom%20cacodemon.png");
+  background-size: contain;
+}
+
+#rocket 
+{
+  width: 75px;
+  height: 140px;
+  transform: scale(.4, .4) rotate(270deg);
+  position: relative;
+  left: 550px;
+  bottom: 225px;
+  background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/Images/classic/doom%20rocket.png");
+  background-size: cover;
+  animation: rocket 1.25s infinite linear;
+}
+
+@keyframes rocket 
+{
+  0%{left: 550px;}
+  100%{left: -50px;}
+}
+
+.jumpAnimation 
+{
+  animation: jump 0.625s ease;
+}
+
+@keyframes jump
+{
+  0%{top: 25px;}
+  50%{top: -125px;}
+  75%{top: -125px;}
+  100%{top: 25px;}
+}
