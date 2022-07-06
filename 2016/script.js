@@ -22,7 +22,7 @@ setInterval(() =>
   const rocketLeft = parseInt(window.getComputedStyle(rocket).getPropertyValue('left'));
   score.innerText++;
 
-  if (rocketLeft < 115 && cacodemonTop > 0) {
+  if (rocketLeft < 65 && cacodemonTop > 0) {
     alert("You were ripped and torn apart! You got a final score of: " + score.innerText + "\n\nPlay again?");
     location.reload();
   }

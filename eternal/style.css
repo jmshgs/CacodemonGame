@@ -30,7 +30,7 @@ body
 {
   height: 400px;
   width: 336px;
-  transform: scale(-.3, .3);
+  transform: scale(.35, .35);
   right: 87.5px;
   top: 25px;
   position: relative;
@@ -40,13 +40,13 @@ body
 
 #rocket 
 {
-  width: 75px;
+  width: 180px;
   height: 140px;
-  transform: scale(.4, .4) rotate(270deg);
+  transform: scale(.35, .35);
   position: relative;
   left: 550px;
-  bottom: 225px;
-  background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/Images/eternal/doom%20rocket.png");
+  bottom: 250px;
+  background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/Images/2016/doom%20rocket.png");
   background-size: cover;
   animation: rocket 1.25s infinite linear;
 }
