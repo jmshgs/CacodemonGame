@@ -46,7 +46,7 @@ body
   position: relative;
   left: 550px;
   bottom: 225px;
-  background-image: url("https://github.com/jxhug/CacodemonGame/blob/main/Images/doom%20rocket.png?raw=true");
+  background-image: url("https://github.com/jxhug/CacodemonGame/blob/main/Images/doom%20rocket.png");
   background-size: cover;
   animation: rocket 1.25s infinite linear;
 }
