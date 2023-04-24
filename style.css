@@ -1,7 +1,7 @@
 @font-face 
 {
 	font-family: "EternalUI";
-	src: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/EternalUI.woff");
+	src: "./eternal.woff";
 }
 
 body 
@@ -22,7 +22,7 @@ body
   height: 300px;
   border: 2px solid black;
   margin: auto;
-  background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/Images/classic/doom%20background.jpg");
+  background-image: url("https://raw.githubusercontent.com/jxhug/CacodemonGame/main/Images/classic/doom%20background.jpg");
   background-size: cover;
 }
 
@@ -34,7 +34,7 @@ body
   right: 87.5px;
   top: 25px;
   position: relative;
-  background-image: url("https://raw.githubusercontent.com/jam3shug/CacodemonGame/main/Images/classic/doom%20cacodemon.png");
+  background-image: url("https://raw.githubusercontent.com/jxhug/CacodemonGame/main/Images/classic/doom%20cacodemon.png");
   background-size: contain;
 }
 
