@@ -1,7 +1,7 @@
 @font-face 
 {
 	font-family: "EternalUI";
-	src: "./EternalUI.woff";
+	src: url("https://github.com/jxhug/CacodemonGame/blob/462e5290c6fd5019fb94c87d7b4441e27b7d8e16/EternalUI.woff")
 }
 
 body 
