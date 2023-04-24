@@ -22,7 +22,7 @@ body
   height: 300px;
   border: 2px solid black;
   margin: auto;
-  background-image: "./images/background.jpeg";
+  background-image: "./images/doom background.jpg";
   background-size: cover;
 }
 
@@ -34,7 +34,7 @@ body
   right: 87.5px;
   top: 25px;
   position: relative;
-  background-image: "./images/cacodemon.png";
+  background-image: "./images/doom cacodemon.png";
   background-size: contain;
 }
 
@@ -46,7 +46,7 @@ body
   position: relative;
   left: 550px;
   bottom: 225px;
-  background-image: "./images/rock.png";
+  background-image: "./images/doom rocket.png";
   background-size: cover;
   animation: rocket 1.25s infinite linear;
 }
