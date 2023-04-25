@@ -3,3 +3,4 @@
 
 
 A game like the Chrome Dino Game but where you play as a cacodemon trying to avoid rockets. To play click the cacodemon!
+Coded in CSS and vanilla JS.
